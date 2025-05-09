@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "poppins";
+    color: #EF629F;
+}
+
+nav a {
+    color: #EF629F;
+}
+
+body {
+    font-family: "Poppins";
+    margin: 20px;
+    color: #ffffff;   /* Cor padrão das fontes */
+    background: #EECDA3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+}
+
+form{
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;   
+    color: #755965;               
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #facee1;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+input, select, button {
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+    color:#494949;               
+    background-color: #fff;    
+    border-radius: 8px;
+    font-family: "poppins";
+    border: 1px solid #ccc;        
+    border-radius: 8px;            
+
+
+    outline: none;
+}
+
+.btn-excluir {
+    background-color: #eea7c6;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.btn-excluir:hover {
+    background-color: #EF629F;
+}
+
+
